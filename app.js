@@ -18,6 +18,9 @@ const transporter = nodemailer.createTransport({
     }
 
 });
+
+
+
 app.post('/newmail',(req,res)=>{
 const mailoption ={
     from:process.env.USER_GMAIL,
