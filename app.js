@@ -29,7 +29,7 @@ const mailoption ={
     text:req.body.text,
 
 };
-console.log(mailoption)
+
 
   transporter.sendMail(mailoption,function(error,info){
     console.log("in",info)
