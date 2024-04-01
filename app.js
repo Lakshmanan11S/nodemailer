@@ -31,6 +31,8 @@ const mailoption ={
 };
 
 
+hfg;
+
   transporter.sendMail(mailoption,function(error,info){
     console.log("in",info)
     if(error){
